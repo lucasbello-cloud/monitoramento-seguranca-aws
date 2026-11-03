@@ -6,11 +6,11 @@ Desenvolver uma arquitetura conceitual de monitoramento e segurança para uma in
 
 Serviços utilizados
 
-- Amazon CloudWatch: monitoramento de recursos e métricas.
-- AWS CloudTrail: registro de atividades e eventos da conta.
-- AWS IAM: gerenciamento de identidades e permissões.
-- Amazon GuardDuty: detecção de possíveis ameaças.
-- Amazon S3: armazenamento de arquivos e registros.
+ Amazon CloudWatch: monitoramento de recursos e métricas.
+ AWS CloudTrail: registro de atividades e eventos da conta.
+ AWS IAM: gerenciamento de identidades e permissões.
+ Amazon GuardDuty: detecção de possíveis ameaças.
+ Amazon S3: armazenamento de arquivos e registros.
 
 Segurança
 
@@ -19,3 +19,15 @@ O projeto considera o princípio do menor privilégio, monitoramento contínuo e
 Observação
 
 Projeto conceitual para fins de estudo. Nenhum serviço ou permissão foi configurado em uma conta AWS real.
+
+ Diagrama da arquitetura
+
+O diagrama representa a integração conceitual dos serviços AWS utilizados no projeto:
+
+ IAM
+ CloudTrail
+ CloudWatch
+ GuardDuty
+ S3
+
+O desenho demonstra como esses serviços contribuem para a segurança e o monitoramento de uma infraestrutura em nuvem.
